@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\Plugin\\Plugin.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\DomainModel\\DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\DomainModel\\DomainModel.csproj",
+        "projectName": "DomainModel",
+        "projectPath": "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\DomainModel\\DomainModel.csproj",
+        "packagesPath": "C:\\Users\\zikun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zikun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\Plugin\\Plugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\Plugin\\Plugin.csproj",
+        "projectName": "Plugin",
+        "projectPath": "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\Plugin\\Plugin.csproj",
+        "packagesPath": "C:\\Users\\zikun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\Plugin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zikun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\DomainModel\\DomainModel.csproj": {
+                "projectPath": "C:\\Users\\zikun\\Downloads\\Telegram Desktop\\Laba2.v13\\Source\\DomainModel\\DomainModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
